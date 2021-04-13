@@ -13,3 +13,10 @@ main > div:first-child > .container > .row > div{
     background-color: red;
     border: 1px solid black;
 }
+
+/* about */
+main > div:nth-child(2) > .container > .row > div{
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+}
