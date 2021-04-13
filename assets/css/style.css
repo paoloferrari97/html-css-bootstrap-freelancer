@@ -20,3 +20,16 @@ main > div:nth-child(2) > .container > .row > div{
     background-color: red;
     border: 1px solid black;
 }
+
+/* FOOTER */
+footer > div:first-child > .container > .row > div{
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+footer > div > p{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+}
