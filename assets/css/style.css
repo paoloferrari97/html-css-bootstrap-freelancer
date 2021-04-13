@@ -4,3 +4,12 @@
 header > div > div.container > img{
     height: 200px;
 }
+
+/* MAIN */
+
+/* portfolio */
+main > div:first-child > .container > .row > div{
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
+}
