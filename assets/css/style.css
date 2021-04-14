@@ -17,6 +17,10 @@
     color: white;
 }
 
+.scritte_verde{
+    color: #1abc9c;
+}
+
 .blu{
     background-color: #3a546d;
     color: white;
@@ -42,13 +46,8 @@ main > div:first-child > .container > .row > div > img{
     width: 100%;
 }
 
-/* about */
-
 /* contact me */
 #contact > .container > form > div.form-group > input.form-control{
-    border-top: 0;
-    border-right: 0;
-    border-left: 0;
     height: 15px;
 }
 
@@ -57,14 +56,13 @@ main > div:first-child > .container > .row > div > img{
 }
 
 /* FOOTER */
-footer > div:first-child > .container > .row > div{
-    height: 100px;
-    background-color: red;
-    border: 1px solid black;
+.social_logo{
+    width: 40px;
+    height: 40px;
 }
 
-footer > div > p{
-    width: 100px;
-    height: 30px;
-    background-color: red;
+.social_logo > i{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
