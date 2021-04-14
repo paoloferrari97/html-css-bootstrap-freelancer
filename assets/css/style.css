@@ -66,3 +66,7 @@ main > div:first-child > .container > .row > div > img{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+footer > div:last-child > span{
+    font-size: 13px;
+}
