@@ -38,11 +38,9 @@ header > div > div.container > img{
 /* MAIN */
 
 /* portfolio */
-/* main > div:first-child > .container > .row > div{
-    height: 100px;
-    background-color: red;
-    border: 1px solid black;
-} */
+main > div:first-child > .container > .row > div > img{
+    width: 100%;
+}
 
 /* about */
 main > div:nth-child(2) > .container > .row > div{
