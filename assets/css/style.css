@@ -45,11 +45,13 @@ main > div:first-child > .container > .row > div > img{
 /* about */
 
 /* contact me */
-main > div:nth-child(3) > .container > .row > div{
-    height: 100px;
-    background-color: red;
-    border: 1px solid black;
+#contact > .container > form > div.form-group > input.form-control{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    height: 15px;
 }
+
 
 /* FOOTER */
 footer > div:first-child > .container > .row > div{
