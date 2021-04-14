@@ -29,6 +29,13 @@ header > div > div.container > img{
     height: 200px;
 }
 
+.w_hr{
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    display: inline-block;
+}
+
 /* MAIN */
 
 /* portfolio */
