@@ -52,6 +52,9 @@ main > div:first-child > .container > .row > div > img{
     height: 15px;
 }
 
+#contact > .container > form > div.form-group:nth-child(4) > input.form-control{
+    height: 100px;
+}
 
 /* FOOTER */
 footer > div:first-child > .container > .row > div{
