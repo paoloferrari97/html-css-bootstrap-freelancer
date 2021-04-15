@@ -30,7 +30,7 @@
 
 /* start bootstrap */
 header > div > div.container > img{
-    height: 200px;
+    max-width: 200px;
 }
 
 .w_hr{
