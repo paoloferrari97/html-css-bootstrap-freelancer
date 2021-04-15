@@ -48,6 +48,7 @@ main > div:first-child > .container > .row > div > div > img{
 
 main > div:first-child > .container > .row > div > div{
     position: relative;
+    transition: all 2s;
 }
 
 .overlay{
