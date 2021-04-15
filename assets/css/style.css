@@ -42,8 +42,33 @@ header > div > div.container > img{
 /* MAIN */
 
 /* portfolio */
-main > div:first-child > .container > .row > div > img{
+main > div:first-child > .container > .row > div > div > img{
     width: 100%;
+}
+
+main > div:first-child > .container > .row > div > div{
+    position: relative;
+}
+
+.overlay{
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(49, 212, 63, 0.5);
+}
+
+.overlay > i{
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main > div:first-child > .container > .row > div > div:hover .overlay{
+    display: block;
 }
 
 /* contact me */
